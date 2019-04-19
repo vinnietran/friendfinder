@@ -4,8 +4,8 @@ Friend Finder is a simulated networking site that can help the user find friends
 
 ## Depoloyed Version
 
-Please check out the working version deployed on Heroku!: https://murmuring-reef-91260.herokuapp.com/
+Please check out the working version deployed on Heroku!: https://murmuring-reef-91260.herokuapp.com/ 
 
-##Technologies Used 
+## Technologies Used 
 
 This app leverages Node.js and Express.js to run the backend. On the front end, I incorporated both Bootstrap and Materialize elements, along with the use of JQuery. 
