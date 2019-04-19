@@ -4,7 +4,7 @@ Friend Finder is a simulated networking site that can help the user find friends
 
 ## Depoloyed Version
 
-Please check out the working version deployed on Heroku!: 
+Please check out the working version deployed on Heroku!: https://murmuring-reef-91260.herokuapp.com/
 
 ##Technologies Used 
 

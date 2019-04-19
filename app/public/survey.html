@@ -309,9 +309,28 @@
             });
         });
 
+        var option = $(".form-control option:selected").text();
+        console.log(option);
+        
+        var message = "Please ensure all questions are completed before submitting"
+
+
         $('#submitButton').on('click', function (event) {
             event.preventDefault();
             // Gather user inputs
+            if (   $('#question1').val().trim() ||
+                    $('#question2').val().trim() ||
+                    $('#question3').val().trim() ||
+                    $('#question4').val().trim() ||
+                    $('#question5').val().trim() ||
+                    $('#question6').val().trim() ||
+                    $('#question7').val().trim() ||
+                    $('#question8').val().trim() ||
+                    $('#question9').val().trim() ||
+                    $('#question10').val().trim() === "soption") {
+                $(".error").append('<div class="alert alert-danger" role="alert">' + message + '</div>')
+            }
+            else {
             var userInput = {
                 name: $('#userName').val().trim(),
                 photo: $('#userPhoto').val().trim(),
@@ -332,31 +351,17 @@
             // Add user inputs to friends list
             $.post('/api/friends', userInput)
                 .done(function (data) {
-                    // console.log('response = ' + JSON.stringify(data));
-                    // Set the name and image values of friend match
                     $('#userMatch').html(data.matchName);
                     $("#userMatchImage").attr("src", data.matchImage);
-                    // Pop open the modal dialog
                     $('#modal1').modal('open');
                 });
+            }
         });
+    
     </script>
 
-    <!-- <script>
-        var option = $(".form-control option:selected").text();
-        console.log(option);
-
-        var message = <div class="alert alert-danger" role="alert">
-            A simple danger alert—check it out!
-</div>
-
-        $("#submitButton").click(function () {
-            if (option === "Select an option") {
-
-            }
-        }
-        )
+    <script>
+      
     </script> -->
-
 
 </body>
