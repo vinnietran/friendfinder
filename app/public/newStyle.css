@@ -13,36 +13,31 @@
     text-align: center; 
   }
 
-  h1{
-    color: red;
-    font-size: 30pt;
-  
-  }
 
 p {
   color: black
 }
 
-#question2{
-  color: red;
+
+.title{
+  color: white;
 }
 
-.page-footer{
+#newfoot{
   margin-top: 120px;
   background-color: #06ACBD;
 }
 
 h2{
   text-align: center;
-  color: white;
-  font-family: 'Caveat', cursive;
+  color: black;
+  font-family: 'Rubik', sans-serif;
 }
 
 h3{
   font-family: 'Rubik', sans-serif;
-  color: white;
+  color: black;
   font-size: 20pt;
-  text-align: center;
 }
 
 #nnav{
@@ -58,8 +53,12 @@ a{
   color: white;
 }
 
+#submitButton, #surveybtn{
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  background-color: #06ACBD;
+}
 
-/* font-family: 'Rubik', sans-serif;
-font-family: 'Questrial', sans-serif; */
+
 
 
