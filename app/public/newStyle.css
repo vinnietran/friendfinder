@@ -1,0 +1,65 @@
+.parallax-container {
+    height: auto;
+  }
+
+  .nav-wrapper{
+    background-color: #06ACBD;
+    
+  }
+
+  .card{
+    color: white;
+    background-color: #06ACBD;
+    text-align: center; 
+  }
+
+  h1{
+    color: red;
+    font-size: 30pt;
+  
+  }
+
+p {
+  color: black
+}
+
+#question2{
+  color: red;
+}
+
+.page-footer{
+  margin-top: 120px;
+  background-color: #06ACBD;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  font-family: 'Caveat', cursive;
+}
+
+h3{
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  font-size: 20pt;
+  text-align: center;
+}
+
+#nnav{
+  text-align: center
+}
+
+#vin{
+  margin: auto;    
+    display: block;
+}
+
+a{
+  color: white;
+}
+
+
+/* font-family: 'Rubik', sans-serif;
+font-family: 'Questrial', sans-serif; */
+
+
